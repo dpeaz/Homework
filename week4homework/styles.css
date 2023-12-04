@@ -1,0 +1,22 @@
+* {
+  background-color: #a9a9a9;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 60px;
+  }
+
+.selfie {
+  width: 10%;
+  height: 10%;
+  margin-left: 230px;
+  border: 3px solid black;
+}
+
+#future {
+  font-style: italic;
+}
+
+h1,
+h2 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
