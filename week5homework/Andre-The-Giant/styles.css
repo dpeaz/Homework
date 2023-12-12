@@ -1,0 +1,51 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+  max-width: 500px;
+}
+
+div {
+  /* border: 2px solid burlywood; */
+  margin: auto;
+}
+
+#introPic {
+  float: center;
+}
+
+#bio {
+  float: center;
+}
+#bio > li {
+  padding: 2px;
+  margin: auto;
+}
+
+#pro {
+  width: auto;
+}
+
+#top {
+  height: 50%;
+  width: 50%;
+}
+
+#earlyCareer {
+  max-width: 500px;
+}
+
+@media screen(max-device-width: 375px) {
+}
