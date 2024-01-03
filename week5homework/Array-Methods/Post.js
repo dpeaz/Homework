@@ -356,12 +356,13 @@ const userData = [
   }
 ];
 
-userData.forEach(user => {
-  if (user.userId === 5) {
-    console.log(user.title && user.body);
-  }
-});
+let user5Posts = userData.filter(user => user.userId === 5);
+console.log(user5Posts);
 
-userData.forEach(user => {
-  console.log(user.title && user.body);
+let titleBodyPairs = user5Posts.map(post => {
+  return {
+    title: post.title,
+    body: post.body
+  };
 });
+console.log(titleBodyPairs);

@@ -303,16 +303,12 @@ const toDoData = [
   }
 ];
 
-toDoData.forEach(user => {
-  if ((user.userId = 3)) {
-    console.log(user.title);
-  }
-});
-let incompleteTasksCount = 0;
+let user3Todos = toDoData.filter(todo => todo.userId === 3);
+console.log(user3Todos);
 
-toDoData.forEach(user => {
-  if (user.userId === 3 && user.completed === false) {
-    incompleteTasksCount++;
-    console.log(`Number of User 3 Incomplete Tasks: ${incompleteTasksCount}`);
-  }
-});
+let incompleteUser3Todos = toDoData.filter(
+  todo => todo.userId === 3 && !todo.completed
+);
+
+let numberOfIncompleteUser3Todos = incompleteUser3Todos.length;
+console.log(numberOfIncompleteUser3Todos);
